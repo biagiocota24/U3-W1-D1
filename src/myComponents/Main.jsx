@@ -15,7 +15,7 @@ const Main = function () {
   return (
     <div>
       {images.map((img) => (
-        <img src={img} />
+        <img src={img} style={innerWidth:100px} />
       ))}
     </div>
   );
